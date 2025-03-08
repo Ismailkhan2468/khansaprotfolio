@@ -5,7 +5,7 @@ import './aboutme.css'
 import { LuGithub } from 'react-icons/lu'
 import { TiSocialLinkedin } from 'react-icons/ti'
 import { RiInstagramLine } from 'react-icons/ri'
-import logo from "../../assets/logo-pic.jpg"
+import logo from "../../assets/khansa-image.png"
 
 const AboutMe = () => {
     return (
