@@ -1,6 +1,7 @@
 
 import { MdSunny } from 'react-icons/md'
 import './header.css'
+import logok from '../../assets/logo-k.png'
 
 const Header = () => {
 
@@ -31,7 +32,7 @@ const Header = () => {
 
     return (
         <header>
-             <span className='header-logo-img'><img src="header-logo.png" alt="" />
+             <span className='header-logo-img'><img src={logok} />
              </span>
 
             <ul className='header-menuitems'>
