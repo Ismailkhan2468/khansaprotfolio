@@ -5,6 +5,7 @@ import './aboutme.css'
 import { LuGithub } from 'react-icons/lu'
 import { TiSocialLinkedin } from 'react-icons/ti'
 import { RiInstagramLine } from 'react-icons/ri'
+import logo from "../../assets/testing-image.png"
 
 const AboutMe = () => {
     return (
@@ -25,7 +26,7 @@ const AboutMe = () => {
 
             {/* YEH IMAGE WALI DIV HAI */}
             <div className='aboutme-picture'>
-                <img src='testing-image.jpg' />
+                <img src={logo} />
             </div>
         </div>
     )
