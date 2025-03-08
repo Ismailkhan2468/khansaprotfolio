@@ -1,0 +1,50 @@
+.education{
+    height: calc(100vh - 3rem);
+    text-align:center;
+    justify-content: space-around;
+    display: flex;
+    background-color: #F8FAFC;
+    align-items: center;
+}
+.educationhead{
+    font-size: 4rem;
+    color: rgba(11, 11, 64, 0.797);
+    transition: 0.3s ease-in-out;
+}
+.educationhead:hover{
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+}
+.educationhead img{
+    width: 80px;
+    height: 80px;
+}
+
+.project-main-box{
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+  
+  .educationCardss{
+    display: flex;
+    gap: 1.5rem;
+  }
+.education-card-ui {
+    width: 250px;
+    height: 300px;
+    background-color: #d0e0e390;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(209, 208, 208);
+    padding-top: 130px;
+    transition: 0.3s ease-in-out;
+}
+.education-card-ui:hover{
+    transform: translateY(-5px) scale(105%);
+}
+
+

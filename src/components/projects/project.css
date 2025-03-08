@@ -1,0 +1,137 @@
+
+.project-section{
+    padding: 3.5rem 3rem;
+    background-color: #d0e0e390;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-heading{
+       font-size: 50px;
+       color: rgb(47, 182, 180);
+        animation: head 4s ease-in-out infinite;
+        transition: 0.3s ease-in-out;
+        font-style: italic;
+}
+.first-heading:hover{
+    text-decoration: underline;
+    transform: translateY(-6px);
+     
+}
+/* @keyframes head {
+      50%{
+       color: #A64D79;
+       
+      }
+      100%{
+         color: #57A6A1;
+      }
+} */
+ 
+.first-heading span img{
+     width: 80px;
+     height: 80px;
+}
+  
+
+
+.cardPicture {
+    height: 260px;
+    width: 280px;
+    border-radius: 1rem;
+
+}
+
+.cardPicture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+.projectCards {
+     width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    font-size: 13px;
+    font-family: poppins;
+}
+
+.projectCards p{
+    font-size: 10px;
+}
+
+
+.card-ui {
+    width: 300px;
+    height:400px ;
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: #d3d5d698;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 6px rgb(168, 168, 168);
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    gap: 10px;
+}
+.card-ui:hover{
+    box-shadow: 0 0 13px rgb(213, 213, 213);
+    transform: scale(103%);
+    border: 2px solid rgb(202, 201, 201);
+}
+.project-section h1{
+     text-align: center;
+     font-family: "JetBrains Mono", monospace,"Dancing Script", cursive;;
+}
+.education-card-ui {
+    background-color: rgb(27, 46, 165);
+}
+
+.card-btn-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-btn {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background-color: rgba(15, 111, 110, 0.566);
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.card-btn:hover{
+    background-color:orange ;
+    transform: translateY(-2px);
+}
+  
+.card-btn  span img{
+    width: 20px;
+    height: 20px;
+    transform: translateY(5px);
+}
+
+.para-section{
+    margin-top: -30px;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+    .para-section p{
+        width: 500px;
+        padding: 20px;
+        color: rgb(75, 74, 74);
+    }

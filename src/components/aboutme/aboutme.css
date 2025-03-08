@@ -1,0 +1,107 @@
+.aboutme{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 5rem);
+    background-color: #d0e0e390;
+    /* padding: 0.5rem 3rem; */
+}
+
+
+.aboutme-picture{
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    transform: translateX(-80px);
+    box-shadow: 0 0 7px  rgba(5, 129, 126, 0.911);
+    animation: imgplay 5s ease-in-out infinite;
+    transition: 0.5s;
+}
+@keyframes imgplay  {
+    50%{
+         transform: translateY(-40px) translateX(-80px);
+         box-shadow: 0 0 20px  rgba(5, 129, 126, 0.911);
+     }
+     100%{
+
+       transform: translateY(0px) translateX(-80px);
+     }
+}
+
+.aboutme-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.aboutme-leftsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: sans-serif,poppins;
+    margin-left: 100px;
+}
+.aboutme-leftsection h1{
+    font-size: 50px;
+    padding-left: 25px;
+    color: rgb(0,96,94);
+    transition: 0.5s ease-in-out;
+}
+.aboutme-leftsection h1:hover{
+  text-shadow: 0 0 3px rgb(28, 255, 251);
+  transform: translateY(-5px);
+}
+.aboutme-leftsection p{
+    width: 730px;
+    padding-left: 30px;
+    color: rgb(101, 99, 99);
+}
+    
+
+  .toggle{
+      opacity: 0.7;
+      font-size: 22px;
+      animation: toggle  3s ease-in-out infinite;
+      transition: 0.3s ease-in-out;
+  }
+  @keyframes toggle {
+      50%{
+         opacity: 0;
+      }
+      100%{
+        opacity: 2;
+      }
+  }
+
+.link-btns{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    }
+    .link-btn-color{
+        width: 45px;
+        height: 45px;
+        border-radius: 30px;
+        border: 2px solid rgb(0,96,94);
+       padding: 10px;
+       transition: 0.5s ease-in-out;
+       cursor: pointer;
+    }
+    .link-btn-color:hover{
+        box-shadow: 0 0 10px rgba(5, 129, 126, 0.911);
+        transform: translateY(-8px);
+        background-color: rgba(4, 110, 109, 0.847);
+    }
+    .aboutme-leftsection span{
+        /* background-color:rgb(7, 147, 149) ; */
+        color: rgb(7, 147, 149);
+    
+    }
+    .aboutme-leftsection span:hover{
+         text-decoration: underline;
+          transition: 0.3s ease-in-out;
+    }
