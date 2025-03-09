@@ -31,7 +31,7 @@ const Header = () => {
 
 
     return (
-        <header>
+        <header className='main-header'>
              <span className='header-logo-img'><img src={logok} />
              </span>
 
