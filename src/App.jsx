@@ -5,7 +5,7 @@ import './index.css'
 import Projects from './components/projects/project'
 import Education from './components/education/Education'
 import AboutDev from './components/aboutdev/About'
-import ContectMe from './components/contectme/Contectme'
+
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
        <AboutDev />
       <Projects />
       <Education />
-      <ContectMe />
+      
     </div>
     </div>
   )
