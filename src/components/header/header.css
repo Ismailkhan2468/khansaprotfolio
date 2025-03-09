@@ -20,6 +20,10 @@ header {
     color: rgb(101, 99, 99);
     transition: 0.2s ease-in-out;
 }
+.header-menuitems li a{
+    text-decoration: none;
+    color:rgb(101, 99, 99) ;
+}
 .header-menuitems li:hover{
 
        border-bottom: 3px solid rgb(0,96,94);
