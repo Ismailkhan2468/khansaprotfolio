@@ -6,3 +6,12 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+div{
+   scroll-snap-align: start;
+   min-height: 100vh;
+}
