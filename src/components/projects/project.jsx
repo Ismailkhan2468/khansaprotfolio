@@ -49,7 +49,7 @@ const Projects = () => {
     ]
 
     return (
-        <div className="project-section">
+        <div className="project-section" id="projects">
            <div className="para-section">
            <h1 className="first-heading">Projects  <span className="toggle"><img src={projectlogo} /></span></h1>
             <p>Explore my diverse projects that seamlessly blend creativity, innovation, and technical expertise to deliver exceptional results.</p>

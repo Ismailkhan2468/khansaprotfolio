@@ -20,7 +20,7 @@ const Header = () => {
         },
         {
             itemName: "Education",
-            itemLink: "#education"
+            itemLink: "#EducationPart"
         },
         {
             itemName: "Contact Me",
@@ -38,7 +38,7 @@ const Header = () => {
             <ul className='header-menuitems'>
                 {headerMenuItems.map((i, index) => {
                     return (
-                        <li key={index}>{i.itemName}</li>
+                    <li key={index}><a href={i.itemLink}>{i.itemName}</a></li>
                     )
                 })}
             </ul>

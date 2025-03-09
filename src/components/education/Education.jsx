@@ -19,7 +19,7 @@ const Education = () => {
     ]
 
     return (
-        <div className='education'>
+        <div className='education' id='EducationPart'> 
             <h1 className='educationhead'> <span><img src={edu}/> </span>Education </h1>
 
               <div className='project-main-box'>
