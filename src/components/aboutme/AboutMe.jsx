@@ -9,7 +9,7 @@ import logo from "../../assets/khansa-image.png"
 
 const AboutMe = () => {
     return (
-        <div className='aboutme'>
+        <div className='aboutme' id='Home'>
             <div className='aboutme-leftsection'>
                 <h1>Frontend ReactJS Developer</h1>
 
