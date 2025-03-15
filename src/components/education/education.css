@@ -10,6 +10,7 @@
     font-size: 4rem;
     color: rgba(11, 11, 64, 0.797);
     transition: 0.3s ease-in-out;
+    background-color: red;
 }
 .educationhead:hover{
     border-bottom: 3px solid black;
