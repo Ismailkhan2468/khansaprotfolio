@@ -18,7 +18,7 @@ const AboutMe = () => {
 
                 <div className='link-btns'>
                 <TiSocialLinkedin  className='link-btn-color'/>
-                    <LuGithub className='link-btn-color'/>
+               <a href="https://github.com/Ismailkhan2468"><LuGithub className='link-btn-color'/></a>
                     <RiInstagramLine className='link-btn-color'/>
 
                 </div>
