@@ -7,7 +7,7 @@ const Header = () => {
 
     const headerMenuItems = [
         {
-            itemName: "Hom",
+            itemName: "Home",
             itemLink: "#Home"
         },
         {
