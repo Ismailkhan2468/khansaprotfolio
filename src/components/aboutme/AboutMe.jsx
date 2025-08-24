@@ -17,7 +17,7 @@ const AboutMe = () => {
                  I am passionate about building responsive and user-friendly websites.</p>
 
                 <div className='link-btns'>
-               <a href="https://www.linkedin.com/in/khansa-rani-092975354/"> <TiSocialLinkedin  className='link-btn-color'/></a>
+               <a href="https://www.linkedin.com/in/khansa-rani-092975354/" target='blank'> <TiSocialLinkedin  className='link-btn-color'/></a>
                <a href="https://github.com/Ismailkhan2468" target='blank'><LuGithub className='link-btn-color'/></a>
                     <RiInstagramLine className='link-btn-color'/>
 
