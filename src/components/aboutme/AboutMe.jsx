@@ -11,7 +11,7 @@ const AboutMe = () => {
     return (
         <div className='aboutme' id='Home'>
             <div className='aboutme-leftsection'>
-                <h1>Frontend ReactJS Teveloper</h1>
+                <h1>Frontend ReactJS Developer</h1>
 
                 <p>Hi, Im <span><b>( KHANSA RANI )</b></span>. A passionate Front-end React Developer based in Karachi, Pakistan.<span className='toggle'> 📍</span> 
                  I am passionate about building responsive and user-friendly websites.</p>
